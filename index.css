@@ -45,21 +45,23 @@ header .hero {
     align-items: center;
     justify-content: center;
     color: fbfbff ;
+        
 }
 
-header .texto .texto-hero {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
+ header .texto-hero {
+    width: 40%;
+    height: 100%;
+    display: flex ; 
+     align-items: center;
+    justify-content: center; 
+    flex-direction: column;
 }
 
 header .hero button {
-     
+ 
     height: 45px;
-    width: 30%;
+    width: 40%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
     letter-spacing: 0.6;
@@ -74,10 +76,10 @@ header .hero button {
 
 header .img-hero {
     background-image: url("./imagenes/hero-img.png");
-    width: 50%;
-    height: 75%;
+    width: 60%;
+    height: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 
-}
+} 
